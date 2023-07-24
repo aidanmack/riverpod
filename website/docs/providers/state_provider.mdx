@@ -72,6 +72,9 @@ First, let's create the `StateProvider`:
 
 <CodeBlock>{trimSnippet(sortProvider)}</CodeBlock>
 
+//The snippet thats returned above, is that correct? Its returning the `name` property of the object `ProductSortType` so the return type for the provider at a guess would be `String` not `ProductSortType`
+
+
 Then, we can connect this provider with our dropdown by doing:
 
 <CodeBlock>{trimSnippet(connectedDropdown)}</CodeBlock>
